@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "./node_modules/.bin/gulp",
     "serve": "nodemon --watch templates --watch assets -e js,ejs,less,css app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i styles/style.css -o styles/out/add-styles.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "axios": "^0.18.0",

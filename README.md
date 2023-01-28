@@ -1,26 +1,15 @@
-# Gridea 主题 Notes
+# Notes-Anime
 
-一款简洁的 Gridea 主题，聚焦内容
+基于官方Notes主题魔改的二次元主题，预览如下：
 
-<div align="center">
-  <img src="theme.jpg">
-</div>
+![](https://i.imgur.com/GT0K6QX.png)
 
-**项目各文件夹内已写 README，开发主题前敬请阅读！**
 
-`/assets`、`/templates` 必须，Gridea 使用主题时必须文件夹  
-`config.json` 可选，主题信息和自定义配置字段信息  
-`style-override.js` 可选，根据自定义配置信息生成 css 方法文件  
-`/images` 文件夹仅为预览渲染 avatar 所用  
 
-Mock 数据来源：https://github.com/getgridea/mock-json
+魔改技术栈：
 
-Gridea 主题开发支持 less，若不熟悉 less 语法，尽可使用 css 语法编写，只不过文件名需要保持 `main.less`
+- tailwindcss
 
-网页链接仅为预览效果所用
+本想改一下nodejs，但是发现目前没有什么需求=。=
 
-主题开发文档：https://gridea.dev/docs/theme.html
-
-欢迎开发 Gridea 主题！
-
-😘 Enjoy~
+二次开发欢迎点赞喵～如果需要更换展示的二次元图片，那么就更改主题目录下`images/bg.png`图片即可。

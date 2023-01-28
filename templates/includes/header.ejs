@@ -2,20 +2,23 @@
   <a href="<%= themeConfig.domain %>">
   <img class="avatar" src="<%= themeConfig.domain %>/images/avatar.png?v=<%= site.utils.now %>" alt="">
   </a>
-  <h1 class="site-title">
-    <%= themeConfig.siteName %>
-  </h1>
-  <p class="site-description">
-    <%- themeConfig.siteDescription %>
-  </p>
-  <div class="menu-container">
+  <div class="bg-home-pattern">
+    <h1 class="site-title">
+      <%= themeConfig.siteName %>
+    </h1>
+    <p class="site-description">
+      <%- themeConfig.siteDescription %>
+    </p>
+  </div>
+
+  <div class="menu-container rounded-full py-3 px-6 ">
     <% menus.forEach(function(menu) { %>
       <% if (menu.openType === 'External') { %>
-        <a href="<%= menu.link %>" class="menu" target="_blank">
+        <a href="<%= menu.link %>" class="menu delay-300"  target="_blank">
           <%= menu.name %>
         </a>
       <% } else { %>
-        <a href="<%= menu.link %>" class="menu">
+        <a href="<%= menu.link %>" class="menu delay-300">
           <%= menu.name %>
         </a>
       <% } %>
