@@ -179,7 +179,7 @@
     {
       "name": "defaultPostPic",
       "label": "默认首页文章图片",
-      "group": "图片",
+      "group": "颜色",
       "value": "https://i.imgur.com/9gj5PAl.png",
       "type": "input",
       "card": "other",
