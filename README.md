@@ -8,13 +8,17 @@
 
 - tailwindcss
 
-本想改一下nodejs，但是发现目前没有什么需求=。=
+~~本想改一下nodejs，但是发现目前没有什么需求=。=~~
 
-二次开发欢迎点赞喵～如果需要更换展示的二次元图片，那么就更改主题目录下`images/bg.png`图片即可。
+已经做了的：
 
-计划支持：
+- 额外的css样式
 
-- 首页文章图片多个随机出现
+- 如果文章没有配图，首页显示会配一个默认图片（可自定义）
+
+TODO:
+
+- 可设置多个文章默认配图的图片
 
 记得增加自定义css，如下：
 
@@ -623,6 +627,4 @@ video {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
-
-
 ```
