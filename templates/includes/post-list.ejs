@@ -1,6 +1,6 @@
 <div class="post-container">
   <% posts.forEach(function(post) { %>
-    <article class="post block shadow-2xl rounded-lg px-8 m-16 ring-2 ring-yellow-100 ring-opacity-50">
+    <article class="post block shadow-2xl rounded- px-8 m-16 ring-2 ring-yellow-100 ring-opacity-50">
       <a href="<%= post.link %>">
         <h2 class="post-title"><%= post.title %></h2>
       </a>
@@ -19,6 +19,9 @@
       </div>
       <% if (themeConfig.showFeatureImage && post.feature) { %>
         <a href="<%= post.link %>" class="post-feature-image" style="background-image: url('<%= post.feature %>')">
+        </a>
+      <% } else if (themeConfig.showFeatureImage) {%>
+        <a href="<%= post.link %>" class="post-feature-image" style="background-image: url('/images/post-pic.jpg')">
         </a>
       <% } %>
       <div class="post-abstract">
