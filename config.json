@@ -184,6 +184,15 @@
       "type": "textarea",
       "card": "other",
       "note": "图片网址"
+    },
+    {
+      "name": "bgPic",
+      "label": "首页侧边图",
+      "group": "图片",
+      "value": "https://i2.100024.xyz/2023/01/29/1764550262.webp",
+      "type": "textarea",
+      "card": "other",
+      "note": "图片网址"
     }
   ]
 }

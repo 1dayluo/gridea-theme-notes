@@ -3,7 +3,7 @@
     <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
     <meta name="description" content="<%- site.customConfig.metaDescription || themeConfig.siteDescription %>" />
   </head>
-  <body class="bg-custom">
+  <body class="bg-custom" style="background-image: url('<%= site.customConfig.bgPic %>')" >
     <div class="main">
       <div class="main-content bg-yellow-50 ">
         <%- include('./includes/header') %>
