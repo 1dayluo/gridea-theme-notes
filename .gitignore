@@ -240,6 +240,6 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/git,node,macos,windows,webstorm
 
-/styles/**/*
+# /styles/**/*
 /media/**/*
 package-lock.json

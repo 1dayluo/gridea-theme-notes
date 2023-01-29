@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@config "../tailwind.config.js"; 
+
+.bg-custom {
+    @apply   bg-yellow-50 cursor-crosshair bg-[url('/images/bg.png')]  bg-no-repeat bg-right-bottom  bg-fixed bg-20-size;
+
+
+}
+.baka-bg {
+    @apply bg-[url('/images/bg.png')]  bg-no-repeat bg-right-bottom;
+}
+
