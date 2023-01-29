@@ -2,11 +2,14 @@
 
 基于官方Notes主题魔改的二次元主题，预览如下：
 
-![](https://i.imgur.com/GT0K6QX.png)
+![](https://i.imgur.com/oTQ0JSH.png)
+
+
 
 魔改技术栈：
 
 - tailwindcss
+- nodejs
 
 ~~本想改一下nodejs，但是发现目前没有什么需求=。=~~
 
@@ -15,6 +18,8 @@
 - 额外的css样式
 
 - 如果文章没有配图，首页显示会配一个默认图片（可自定义）
+
+- 默认首页侧边图片
 
 TODO:
 
